@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.location-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.location-timezone {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.temperature-degree {
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+}
+
+.temperature-unit {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.temperature-description {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.humidity,
+.wind-speed,
+.rainfall {
+    margin-top: 12px;
+    font-size: 16px;
+}
